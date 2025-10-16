@@ -87,7 +87,7 @@ main{
   grid-column: 2;
 }
 
-#ficha img.foto{
+#ficha img.ifoto{
   width: 200px;
   aspect-ratio: 1/1;
   object-fit: cover;
@@ -271,4 +271,16 @@ footer:hover{
     max-width: 20%;
     max-height: 200px;
   }
+
+    main{
+      grid-template-columns: 300px 1fr auto;
+    }
+
+    #ficha{
+    grid-column: 1/2;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
 }
